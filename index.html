@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="rickroll_4k-modified.png">
+    
+    <script src="https://kit.fontawesome.com/234b7502c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="nlogo2-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hii, Iam <span>Harsh</span><br> From Dhule</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about me-->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="DSC_0101_edirt-removebg-preview.png" alt="no">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a second-year student with a passion for learning and a drive to excel in my studies. I am
+                        dedicated, hardworking, and always eager to take on new challenges</p>
+                    <!----skill section--->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contains active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Front-end Developer</li>
+                            <li><span>UI/Ux</span><br>Designing web/app interface</li>
+                            <li><span>Prompt Engineer</span><br>Learning To Comminicate with AI</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Experiance">
+                        <ul>
+                            <li><span>Created a Landing page</span><br>A simple landing page created using Html CSS
+                            </li>
+                            <li><span>Netflix Interface</span><br>Devlop Netflix login page</li>
+                            <li><span>Calculator Developed</span><br>Developed a Calculator using Html CSS and
+                                javascript</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Education">
+                        <ul>
+                            <li><span>Computer Engineer</span><br>Currently persuing my second-year</li>
+                            <li><span>INTERNSHIP</span><br>intern at Suven consultant,codesoft.</li>
+                            <li><span>DevOps</span><br>Doing courses Of DevOps</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----services-->
+    <div id="Services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Building Web Pages like a Pro
+                    </p>
+
+                    <a href="https://harshbhavsar213.github.io/Real-portfolio/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/Ux</h2>
+                    <p>Creating Smart Interface</p>
+                    <a href="ui.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Prompt Engineer</h2>
+                    <p>Connecting with AI's and Contacting with Chatgpt</p>
+                    <a href="https://zapier.com/blog/how-to-use-chatgpt/" target="_blank">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!----portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img class="netfliximg" src="hero2.png">
+                    <div class="layer">
+                        <h3>Netflix Login Page</h3>
+                        <p>This Page Is a Neflix Front-end Interface of login page
+                        </p>
+                        <a href="https://harshbhavsar213.github.io/Netflix-Login-Page/" ><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="set.png">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>This Calculator made by using HTML CSS and javascript
+
+                        </p>
+                        <a href="https://harshbhavsar213.github.io/codesoft-taks2/"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app is being build if completed i will add
+
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!-----contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> <a
+                            href="https://mail.google.com">Hbhavsar847@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i>
+                        <span id="phoneNumber"><span>+918600437554</span></span>
+                    </p>
+                    <br class="btn3"><button id="copyButton">Copy Phone Number</button>
+
+                    <div class="social-icons">
+                        <a href="https://github.com/Harshbhavsar213" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/HarshalBha21586" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/iam_harsh_bhavsar/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/harsh-bhavsar-856755259/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Harsh. Made By<i class="fa-solid fa-heart"></i> Myself</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontains = document.getElementsByClassName("tab-contains");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontain of tabcontains) {
+                tabcontain.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>document.addEventListener("DOMContentLoaded", function () {
+            const copyButton = document.getElementById("copyButton");
+            const phoneNumber = document.getElementById("phoneNumber");
+
+            copyButton.addEventListener("click", function () {
+                const textToCopy = phoneNumber.innerText;
+
+                // Create a temporary input element to copy the text
+                const tempInput = document.createElement("input");
+                tempInput.value = textToCopy;
+                document.body.appendChild(tempInput);
+
+                // Select the text in the input field
+                tempInput.select();
+                tempInput.setSelectionRange(0, 99999); // For mobile devices
+
+                // Copy the selected text to the clipboard
+                document.execCommand("copy");
+
+                // Remove the temporary input element
+                document.body.removeChild(tempInput);
+
+                // Change the button text to indicate a successful copy
+                copyButton.innerHTML = "   Copied!   ";
+
+                // Reset the button text after a short delay
+                setTimeout(function () {
+                    copyButton.innerHTML = "Copy Phone Number";
+                }, 1500);
+            });
+        });
+    </script>
+</body>
+
+</html>
